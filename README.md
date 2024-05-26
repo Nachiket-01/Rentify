@@ -67,7 +67,7 @@ Before installing and running the Rentify application, make sure you have the fo
 2. Navigate to the project's root directory:
 
    ```shell
-   cd rentify
+   cd server
    ```
 
 3. Install the server dependencies:
