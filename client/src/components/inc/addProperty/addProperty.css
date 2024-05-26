@@ -1,0 +1,64 @@
+.property-form-container {
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+  
+.property-form-container > form {
+    /* width: 35%; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group > label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.address,
+.sqft,
+.price,
+input[type='number'],
+textarea,
+select {
+    box-sizing: border-box; 
+    width: 100%;
+    padding: 10px;
+    margin: 0; 
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type='file'] {
+    margin-top: 5px;
+}
+
+button[type='submit'] {
+    background-color: #D60001;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
